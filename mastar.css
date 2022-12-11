@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imegs/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.logo h2 span {
+    color: red;
+
+}
+
+.link ul {
+    list-style-type: none;
+}
+
+.link ul li {
+    display: inline-block;
+    padding: 0 18px;
+}
+
+.link ul li a {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.link ul li a:hover {
+    color: rgba(255, 0, 0, 0.781);
+    transition: 01s;
+}
+
+.btn a {
+    padding: 13px 25px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn a:hover {
+    background-color: rgba(255, 0, 0, 0.781);
+}
+
+.cercon {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 250px;
+
+}
+
+.cercon h2 {
+    padding: 10px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.cercon h1 {
+    color: red;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+.textt {
+    background-color: rgb(68, 68, 68);
+
+}
+
+
+.textt h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.textt h2 i {
+    color: red;
+    padding: 0 5px;
+}
+
+.contenr {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.contenr .card h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contenr .card p {
+    color: white;
+    padding: 5px 0;
+    font-weight: 200;
+}
+
+.contenr .card i {
+    color: yellow;
+}
+
+.contenr .card img {
+    width: 100%;
+}
+
+.fotar {
+    background-color: rgba(255, 0, 0, 0.884);
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+@media (max-width:950px) {
+    .logo h2 {
+        font-size: 50x;
+        display: flex;
+        padding: 0 10px;
+    }
+
+    .link ul li {
+        display: none;
+    }
+
+
+    .btn a {
+        padding: 15PX 20px;
+        margin-right: 10px;
+    }
+
+    .cercon {
+        padding: 0 130px;
+    }
+
+    .cercon h2 {
+        font-size: 30px;
+        margin: 0 -60px;
+
+    }
+
+    .cercon h1 {
+        font-size: 40px;
+        margin: 0 -60px;
+    }
+}
